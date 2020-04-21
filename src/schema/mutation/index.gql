@@ -1,0 +1,4 @@
+type Mutation {
+  addProject(project: ProjectInput): Project!
+  project(id: ID!): ProjectMutation!
+}

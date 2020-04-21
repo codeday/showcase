@@ -1,0 +1,21 @@
+type ProjectMutation {
+  update(team: ProjectInput): Project
+  delete: Boolean
+
+  addAward(id: ID!, subclass: String): Boolean
+  removeAward(id: ID!): Boolean
+
+  uploadScreenshot(image: Upload!): Image!
+  removeScreenshot(id: ID!): Boolean
+
+  uploadPhoto(image: Upload!): Image!
+  removePhoto: Boolean
+
+  uploadDemoVideo(video: Upload!): Video!
+  removeDemoVideo: Boolean
+
+  uploadPresentationVideo(video: Upload!): Video!
+  removePresentationVideo: Boolean
+
+  setFeatured(featured: Boolean!): Boolean!
+}

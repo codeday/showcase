@@ -1,0 +1,5 @@
+type Query {
+  projects(where: ProjectWhereInput!): [Project]!
+  project(id: ID!): Project
+  myProjects: [Project]!
+}

@@ -1,0 +1,5 @@
+type Image {
+  id: ID!
+  original: String!
+  crop(size: ImageSizeInput): String!
+}

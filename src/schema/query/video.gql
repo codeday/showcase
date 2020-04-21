@@ -1,0 +1,7 @@
+type Video {
+  id: ID!
+  original: String!
+  stream: String!
+  image: String!
+  animatedImage: String!
+}

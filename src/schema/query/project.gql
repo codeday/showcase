@@ -1,0 +1,16 @@
+type Project {
+  id: ID!
+  eventId: ID!
+  groupId: ID!
+  regionId: ID!
+  name: String!
+  description: String
+  demoVideo: Video
+  presentationVideo: Video
+  viewUrl: String
+  sourceUrl: String
+  photo: Image
+  screenshots: [Image]!
+  qAndA: [QAndA]!
+  members: [Member]!
+}

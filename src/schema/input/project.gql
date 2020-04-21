@@ -1,0 +1,9 @@
+input ProjectInput {
+  eventId: ID
+  groupId: ID
+  regionId: ID
+  name: String
+  description: String
+  viewUrl: String
+  sourceUrl: String
+}

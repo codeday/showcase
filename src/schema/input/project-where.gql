@@ -1,0 +1,7 @@
+input ProjectWhereInput {
+  eventId: ID
+  groupId: ID
+  regionId: ID
+  featured: Boolean
+  having: ProjectWhereHavingInput
+}

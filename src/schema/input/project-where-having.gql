@@ -1,0 +1,10 @@
+input ProjectWhereHavingInput {
+  video: Boolean
+  presentation: Boolean
+  photo: Boolean
+  screenshots: Boolean
+  description: Boolean
+  qAndA: Boolean
+  member: ID
+  award: ID
+}

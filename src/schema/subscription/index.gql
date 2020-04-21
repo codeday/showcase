@@ -1,0 +1,4 @@
+type Subscription {
+  projectsChanged(where: ProjectInput!): [Project]!
+  projectChanged(id: ID!): Project
+}

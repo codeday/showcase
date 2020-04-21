@@ -1,0 +1,4 @@
+input ImageSizeInput {
+  width: Int
+  height: Int
+}
