@@ -1,4 +1,4 @@
 type Mutation {
-  addProject(project: ProjectInput): Project!
+  createProject(project: ProjectInput): Project!
   project(id: ID!): ProjectMutation!
 }

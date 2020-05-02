@@ -4,7 +4,7 @@ const {
   requireJudgeProject,
   requirePresentationUploadProject,
   requireFeatureProject,
-} = require('../auth');
+} = require('../../auth');
 
 exports.ProjectMutation = {};
 
@@ -13,7 +13,7 @@ exports.ProjectMutation = {};
 // Edit and delete the project
 //
 
-exports.ProjectMutation.edit = combineResolvers(
+exports.ProjectMutation.update = combineResolvers(
   requireEditProject(),
   ({ id }, { team: edits }, { dataSources: { projects } }) => true // TODO(@tylermenezes)
 );
