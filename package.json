@@ -2,7 +2,7 @@
   "dependencies": {
     "@codeday/graphql-auth": "^1.0.0",
     "@codeday/uploader-node": "^1.0.1",
-    "apollo-server": "^2.11.0",
+    "apollo-server": "^2.25.3",
     "dotenv": "^8.2.0",
     "filter-obj": "^2.0.1",
     "graphql": "^14.6.0",
